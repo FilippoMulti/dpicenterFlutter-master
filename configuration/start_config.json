@@ -1,0 +1,369 @@
+{
+  "url": "dpicenter.multitechsrl.it:9902",
+  "currentVersion": 212,
+  "currentVersionString": "0.0.71.2",
+  "connectionTimeout": 60000,
+  "requestCloseTimeout": 60000,
+  "changeLogs": [
+    {
+      "version": "0.0.71.2",
+      "date": "2023/04/12 16:24",
+      "versionNumber": 212,
+      "info": "Fix schermata bianca dopo salvataggio macchina dalla dashboard."
+    },
+    {
+      "version": "0.0.71.1",
+      "date": "2023/04/11 15:59",
+      "versionNumber": 211,
+      "info": "Fix bugs impostazioni: selezione di un valore non funziona correttamente."
+    },
+    {
+      "version": "0.0.71.0",
+      "date": "2023/03/17 12:28",
+      "versionNumber": 210,
+      "info": "Fix bugs"
+    },
+    {
+      "version": "0.0.70.0",
+      "date": "2023/03/03 16:33",
+      "versionNumber": 209,
+      "info": "Implementazione nuovo modello NLP ChatGPT."
+    },
+    {
+      "version": "0.0.68.0",
+      "date": "2023/02/10 16:10",
+      "versionNumber": 207,
+      "info": "Opzione per selezionare su quale contenitore fare la ricerca semantica."
+    },
+    {
+      "version": "0.0.67.0",
+      "date": "2023/02/06 16:10",
+      "versionNumber": 206,
+      "info": "Cambio istruzioni chatbot\r\nVisualizzazione Thresold."
+    },
+    {
+      "version": "0.0.65.0",
+      "date": "2023/02/03 17:36",
+      "versionNumber": 203,
+      "info": "Generazione documenti di supporto"
+    },
+    {
+      "version": "0.0.64.0",
+      "date": "2023/01/31 16:45",
+      "versionNumber": 202,
+      "info": "Esteso funzionamento chatbot con creazione documenti e 'ascolta'"
+    },
+    {
+      "version": "0.0.63.0",
+      "date": "2023/01/25 00:29",
+      "versionNumber": 201,
+      "info": "Aggiornato a flutter 3.7.\r\nAggiunta salvataggio domande poste in chatbot"
+    },
+    {
+      "version": "0.0.62.0",
+      "date": "2023/01/25 00:29",
+      "versionNumber": 200,
+      "info": "Aggiunto modificatore di threshold in chatbot.\r\nMiglioramento gestione testo nei campi modificabili"
+    },
+    {
+      "version": "0.0.61.0",
+      "date": "2023/01/24 12:07",
+      "versionNumber": 199,
+      "info": "Utilizzato font Roboto standard per correggere le dimensione degli elementi.\r\nAggiunti risultati ricerca semantica in chatbot."
+    },
+    {
+      "version": "0.0.60.0",
+      "date": "2023/01/13 10:11",
+      "versionNumber": 198,
+      "info": "Aggiornato il dataset per il chat-bot e aggiunte ulteriori opzioni di gestione."
+    },
+    {
+      "version": "0.0.59.0",
+      "date": "2023/01/10 17:15",
+      "versionNumber": 197,
+      "info": "Implementato endpoint Answer per rispondere alle domande su MultiDpi."
+    },
+    {
+      "version": "0.0.58.1",
+      "date": "2023/01/07 18:35",
+      "versionNumber": 196,
+      "info": "Aggiunta possibilità di copiare il codice generato dalla chat."
+    },
+    {
+      "version": "0.0.58.0",
+      "date": "2023/01/07 18:35",
+      "versionNumber": 195,
+      "info": "Migliorata funzionamento chat. Visualizzazione moderazione e selezione temperatura."
+    },
+    {
+      "version": "0.0.57.0",
+      "date": "2023/01/05 14:46",
+      "versionNumber": 194,
+      "info": "Migliorata funzionamento chat"
+    },
+    {
+      "version": "0.0.56.0",
+      "date": "2023/01/04 16:05",
+      "versionNumber": 193,
+      "info": "Migliorata integrazione openai chat"
+    },
+    {
+      "version": "0.0.55.0",
+      "date": "2022/12/23 16:15",
+      "versionNumber": 192,
+      "info": "Inizio integrazione openai, chatgpt, dall-e"
+    },
+    {
+      "version": "0.0.54.0",
+      "date": "2022/12/05 17:51",
+      "versionNumber": 191,
+      "info": "Mini menu sulla barra del titolo"
+    },
+    {
+      "version": "0.0.53.0",
+      "date": "2022/12/04 22:58",
+      "versionNumber": 190,
+      "info": "Ridimensionamento filtri datagrid"
+    },
+    {
+      "version": "0.0.52.1",
+      "date": "2022/12/02 17:34",
+      "versionNumber": 189,
+      "info": "Fix animation nella barra di navigazione"
+    },
+    {
+      "version": "0.0.52.0",
+      "date": "2022/12/02 16:11",
+      "versionNumber": 188,
+      "info": "Aggiunta barra di navigazione"
+    },
+    {
+      "version": "0.0.51.0",
+      "date": "2022/12/01 10:49",
+      "versionNumber": 187,
+      "info": "Rinominata Dashboard in Home"
+    },
+    {
+      "version": "0.0.50.1",
+      "date": "2022/11/29 18:02",
+      "versionNumber": 186,
+      "info": "Modificata schermata assistenze per ottenere solo i dati necessari alla visualizzazione"
+    },
+    {
+      "version": "0.0.49.1",
+      "date": "2022/11/22 12:41",
+      "versionNumber": 184,
+      "info": "Fix salvataggio macchine, operatori, hashtags\r\nModifiche alla ricezione di notifiche dal server"
+    },
+    {
+      "version": "0.0.49.0",
+      "date": "2022/11/22 12:41",
+      "versionNumber": 183,
+      "info": "Corretto pulsante Apri nella preview delle immagini"
+    },
+    {
+      "version": "0.0.48.0",
+      "date": "2022/11/14 11:41",
+      "versionNumber": 182,
+      "info": "Fix Salvataggio assistenza nuova\r\nFix promemoria\r\nModifiche grafiche"
+    },
+    {
+      "version": "0.0.46.2",
+      "date": "2022/11/04 14:06",
+      "versionNumber": 180,
+      "info": "Fix Windows 11 22H2\r\nFix barra azioni finestra dati"
+    },
+    {
+      "version": "0.0.46.1",
+      "date": "2022/11/04 14:06",
+      "versionNumber": 179,
+      "info": "Implementato drag and drop delle immagini\r\nOra è possibile incollare una lista di immagini"
+    },
+    {
+      "version": "0.0.45.4",
+      "date": "2022/11/03 22:47",
+      "versionNumber": 177,
+      "info": "Fix scan dei barcode da remoto"
+    },
+    {
+      "version": "0.0.45.0",
+      "date": "2022/11/03 17:23",
+      "versionNumber": 173,
+      "info": "Scan dei barcode da remoto"
+    },
+    {
+      "version": "0.0.44.0",
+      "date": "2022/11/03 12:16",
+      "versionNumber": 172,
+      "info": "Ottimizzato caricamento macchine"
+    },
+    {
+      "version": "0.0.43.0",
+      "date": "2022/11/03 01:04",
+      "versionNumber": 171,
+      "info": "Unificati servizi\r\nVisualizzazione dati inviati e scaricati"
+    },
+    {
+      "version": "0.0.42.1",
+      "date": "2022/11/01 23:07",
+      "versionNumber": 170,
+      "info": "Fix messaggio alla chiusura app\r\nMessaggi tra client"
+    },
+    {
+      "version": "0.0.42.0",
+      "date": "2022/10/28 23:23",
+      "versionNumber": 169,
+      "info": "Messaggio alla chiusura dell'applicazione\r\nFix minori"
+    },
+    {
+      "version": "0.0.41.0",
+      "date": "2022/10/28 16:44",
+      "versionNumber": 168,
+      "info": "Ora è possibile caricare file nelle impostazioni di una macchina\r\nOra è possibile caricare file nello stato produzione di una macchina\r\n"
+    },
+    {
+      "version": "0.0.40.2",
+      "date": "2022/10/28 10:27",
+      "versionNumber": 167,
+      "info": "Corretta visualizzazione data in client connessi\r\nCorretto salvataggio profili\r\n"
+    },
+    {
+      "version": "0.0.40.1",
+      "date": "2022/10/27 16:47",
+      "versionNumber": 166,
+      "info": "Miglioramento interfaccia clients connessi"
+    },
+    {
+      "version": "0.0.40.0",
+      "date": "2022/10/27 12:43",
+      "versionNumber": 165,
+      "info": "Miglioramento sistema notifiche push\r\nAcquisizione informazioni device"
+    },
+    {
+      "version": "0.0.39.0",
+      "date": "2022/10/26 15:20",
+      "versionNumber": 164,
+      "info": "Miglioramento sistema notifiche push\r\nAggiunta schermata client connessi"
+    },
+    {
+      "version": "0.0.38.1",
+      "date": "2022/10/25 00:04",
+      "versionNumber": 163,
+      "info": "Migliorata schermata di aggiornamento."
+    },
+    {
+      "version": "0.0.37.0",
+      "date": "2022/10/24 16:50",
+      "versionNumber": 161,
+      "info": "Implementata notifica push per ricezione nuova versione."
+    },
+    {
+      "version": "0.0.34.0",
+      "date": "2022/10/24 12:18",
+      "versionNumber": 158,
+      "info": "Ora è possibile aggiornare il server direttamente dal client."
+    },
+    {
+      "version": "0.0.33.0",
+      "date": "2022/10/21 11:59",
+      "versionNumber": 157,
+      "info": "Implementato cambio matricola macchina."
+    },
+    {
+      "version": "0.0.32.0",
+      "date": "2022/10/18 14:43",
+      "versionNumber": 156,
+      "info": "Ora è possibile scorrere più immagini nell'anteprima immagini\r\nFix minori"
+    },
+    {
+      "version": "0.0.31.0",
+      "date": "2022/10/17 17:57",
+      "versionNumber": 155,
+      "info": "Changelog migliorato\r\nVisualizzazione numero di macchine, promemoria e documenti in dashboard\r\nVisualizzazione tipo macchina nella lista dei modelli macchina\r\nNascosti dati relativi alle dimensioni del modello macchina"
+    },
+    {
+      "version": "0.0.30.4",
+      "date": "2022/10/17 14:57",
+      "versionNumber": 154,
+      "info": "Ora è possibile salvare una macchina senza assegnare il cliente e lo stabilimento.\r\nNella lista delle macchine in preparazione, cliccando sull'icona del cliente o dello stabilimento viene aperta la relativa posizione su Google Maps"
+    },
+    {
+      "version": "0.0.30.3",
+      "date": "2022/10/17 10:45",
+      "versionNumber": 153,
+      "info": "Fix apertura modello da macchine in preparazione."
+    },
+    {
+      "version": "0.0.30.2",
+      "date": "2022/10/14 17:16",
+      "versionNumber": 152,
+      "info": "Fix colore icona lista file."
+    },
+    {
+      "version": "0.0.30.1",
+      "date": "2022/10/14 16:52",
+      "versionNumber": 151,
+      "info": "Aggiunta ricerca macchine in preparazione in Dashboard."
+    },
+    {
+      "version": "0.0.30.0",
+      "date": "2022/10/14 11:42",
+      "versionNumber": 150,
+      "info": "Visualizzazione stato macchine in Dashboard."
+    },
+    {
+      "version": "0.0.29.0",
+      "date": "2022/10/13 23:51",
+      "versionNumber": 149,
+      "info": "Ora è possibile vedere e gestire lo stato della macchina."
+    },
+    {
+      "version": "0.0.28.2",
+      "date": "2022/10/13 17:05",
+      "versionNumber": 148,
+      "info": "Migliorata importazioni clienti."
+    },
+    {
+      "version": "0.0.28.1",
+      "date": "2022/10/13 16:15",
+      "versionNumber": 147,
+      "info": "Aggiunto controllo matricola e matricola Multi-Tech già esistenti prima del salvataggio di una macchina."
+    },
+    {
+      "version": "0.0.28.0",
+      "date": "2022/10/13 11:03",
+      "versionNumber": 146,
+      "info": "I campi Partita IVA e Codice Fiscale di un cliente non sono più obbligatori\r\nCorretta scritta 'Partita IVA'"
+    },
+    {
+      "version": "0.0.27.1",
+      "date": "2022/10/12 17:40",
+      "versionNumber": 145,
+      "info": "FileLoader con separatore per i file\r\nAggiornamento importazione clienti"
+    },
+    {
+      "version": "0.0.27.0",
+      "date": "2022/10/12 01:17",
+      "versionNumber": 144,
+      "info": "Dashboard: aggiunta ricerca nella colonna dei menu"
+    },
+    {
+      "version": "0.0.26.0",
+      "date": "2022/10/11 17:49",
+      "versionNumber": 143,
+      "info": "Corretta spaziatura icona in ricerca documenti"
+    },
+    {
+      "version": "0.0.25.0",
+      "date": "2022/10/10 22:31",
+      "versionNumber": 142,
+      "info": "Implementazione changelogs"
+    },
+    {
+      "version": "0.0.24.2",
+      "date": "2022/10/09 01:00",
+      "versionNumber": 141,
+      "info": "MimeType Fix customers import reload squaregen 10/10/2022 17:54\nlinux icon to change administrator 10/10/2022 14:45\nlinux support administrator 10/10/2022 14:10\nFix bugs in data screen search Fix bugs in background (in Flutter 3.3 Version) Add MultiSelectorContainer to Vmc e Customers squaregen 10/10/2022 11:41\nFix bugs in data screen search Fix bugs in background (in Flutter 3.3 Version) Add MultiSelectorContainer to Vmc e Customers squaregen 09/10/2022 02:06\nAdd Docs to Dashboard Add MultiSelectorEx to Dashboard squaregen 07/10/2022 22:58\nFix ReminderList squaregen 05/10/2022 01:00\nFix ReminderList squaregen 04/10/2022 17:51\nPromemoria squaregen 04/10/2022 17:38\nPromemoria squaregen 04/10/2022 14:37\nPromemoria squaregen 04/10/2022 11:20\nPromemoria squaregen 03/10/2022 23:01\nPromemoria squaregen 29/09/2022 18:10\nModifica della dashboard squaregen 28/09/2022 23:36\nSviluppo sistema per salvataggio promemoria close #79 squaregen 28/09/2022 17:52\nUpdate version to 0.0.20.1 squaregen 28/09/2022 09:33\nLieve miglioramento prestazioni dashboard squaregen 27/09/2022 23:26\ncorretta registrazione e visualizzazione utente che ha eseguito modifiche nei settaggi e nella produzione close #73 squaregen 27/09/2022 16:33\nadd/edit customer close #77 squaregen 27/09/2022 14:53\nadd/edit customer close #77 squaregen 27/09/2022 12:20\nupdate version squaregen 26/09/2022 01:42\nFix web FileLoader saveFile squaregen 26/09/2022 01:41\nFix web compilation error squaregen 26/09/2022 01:29\nCopia immagini FileLoader non scarica più tutti i file ma solo le intestazioni close #51 squaregen 26/09/2022 01:13\nrimossa compressione file gif, aggiunto supporto preliminare copia immagini squaregen 23/09/2022 02:08\nAggiunta versione alla segnalazione Report a problem close #52 squaregen 22/09/2022 12:11\nReport a problem squaregen 22/09/2022 10:41\nReport a problem squaregen 22/09/2022 09:34\nFix graphics squaregen 20/09/2022 18:09\nFix alignment of AppBar content in iOS squaregen 20/09/2022 12:15\nAggiornamento di textTheme e alcuni colori dell'interfaccia Aggiunto shimming caricamento bottomNavigatorBar in DataScreen squaregen 20/09/2022 11:52\nSostituito FadeIndexedStack con AnimatedIndexedStack Cambiato il colore verde per corrispondere a quello del logo Multi-Tech squaregen 16/09/2022 17:03\nSostituito FadeIndexedStack con AnimatedIndexedStack Cambiato il colore verde per corrispondere a quello del logo Multi-Tech squaregen 16/09/2022 16:11\ndashboard ReportStat usata una listview ovunque per sfruttare la virtualizzazione squaregen 16/09/2022 00:28\ndashboard ReportStat usata una listview per gli hashtags per sfruttare la virtualizzazione squaregen 15/09/2022 17:28\ndata_screen.dart modificata per rendere la lista più veloce togliendo la chiave squaregen 15/09/2022 12:30\nModificato index.html per tentare di visualizzare meglio il logo all'avvio su Safari squaregen 14/09/2022 11:36\nModificato onRowRenderField in DataGridColumnConfiguration per poter formattare correttamente i dati anche nella lista close #20 squaregen 14/09/2022 00:26\nAggiunta schermata di caricamento flutter web close #22 squaregen 13/09/2022 17:03\nAggiunta schermata di caricamento flutter web close #22 squaregen 13/09/2022 16:47\nL'utente viene disconnesso quando viene cambiato l'indirizzo del server close #15 squaregen 13/09/2022 15:42\nshow version in mobile e web application close #17 squaregen 13/09/2022 14:20\nadd support for selection in data screen list Close #18 squaregen 13/09/2022 13:53\nqr codes squaregen 09/09/2022 18:00\nImplementazione stampa qr code in machine_edit_screen.dart squaregen 09/09/2022 12:38\nImplementazione selezione nell'interfaccia per dispositivi mobili squaregen 08/09/2022 17:46\nConvertito MobileField in TextFormField Rimosso i blocchi relativi allo zoom nel web squaregen 08/09/2022 16:06\ntest MobileField vs TextFormField squaregen 08/09/2022 09:42\nSviluppo interfaccia per dispositivi mobili squaregen 07/09/2022 17:49\nSviluppo interfaccia per dispositivi mobili squaregen 07/09/2022 12:39\nSviluppo interfaccia per dispositivi mobili squaregen 07/09/2022 11:57\nMerge remote-tracking branch 'origin/master' squaregen 06/09/2022 18:31\nSviluppo interfaccia per dispositivi mobili squaregen 06/09/2022 18:31\nUpdate README.md squaregen* 06/09/2022 10:55\nImplementato supporto web per lo scarico dei file allegati ai modelli squaregen 01/09/2022 12:30\nTest lista dati con interfaccia diversa su schermi piccoli squaregen 01/09/2022 10:43\nCompletata MachineProductionsView, completata MachineSettingsView squaregen 31/08/2022 16:45\nCompletata MachineProductionsView, modificata MachineSettingsView squaregen 30/08/2022 18:01\nCompletata MachineProductionsView, modificata MachineSettingsView squaregen 30/08/2022 18:01\nimplementata la vista MachineProductionView e la tile MultiSettingTile Aggiunto salvataggio dei MachineProductions in MachineEditScreen squaregen 26/08/2022 16:33\nimplementata la vista MachineProductionView e la tile MultiSettingTile Aggiunto salvataggio dei MachineProductions in MachineEditScreen squaregen 26/08/2022 16:27\nimplementata la vista MachineProductionView e la tile MultiSettingTile Aggiunto salvataggio dei MachineProductions in MachineEditScreen squaregen 26/08/2022 12:18\nMultiSelector on MachineEdit squaregen 29/07/2022 11:21\nChange version squaregen 27/07/2022 17:53\nAggiunta blocco operazioni per preparazione macchina VmcProductionField VmcProduction MachineProduction VmcProductionCategory e rispettive schermate squaregen 27/07/2022 17:53\nAggiunta caricamento documenti per modelli distributore squaregen 26/07/2022 15:27\nClose #10 squaregen 26/07/2022 15:07\nRisolve issue #10 squaregen 26/07/2022 15:02\nRimozione di Picture, implementazione di Media (che è identico ma conterrà anche i file) squaregen 20/07/2022 18:10\neditable machine setting squaregen 20/07/2022 00:33\nAggiunta schermata machine_settings_view.dart Aggiunta importazione file Excel con parametri squaregen 19/07/2022 18:21\nAggiunta editor per inserire VmcSettingCategories Aggiunte opzioni per gestire l'editor da utilizzare in VmcSettingFields editor. Aggiunta di MultiSelector all'editor delle Macchine e gestione salvataggio e caricamento e ricerca impostazioni squaregen 18/07/2022 17:40\nLista interventi squaregen 15/07/2022 18:14\nSettingsScroll squaregen 15/07/2022 00:09\nedit_sample_item.dart space_item_ex menu.dart -> aggiunto Impostazioni base vmc squaregen 12/07/2022 18:12\nOttimizzazione visualizzazione space_item_ex squaregen 11/07/2022 15:38\nSampleItemConfiguration, aggiunta impostazione alzatina, tolto imbustare e aggiunto confezionamento squaregen 08/07/2022 16:55\nemoji nelle note squaregen 06/07/2022 00:49\nAggiunta note a Sample item. Inserimento note, stile post it Aggiornate form vmc item e sample item per utilizzare SettingList squaregen 05/07/2022 18:25\nAggiunta note a Sample item. Esplorata la possibilità di utilizzare Markdown Inserimento note, stile post it squaregen 29/06/2022 18:45\nCaricamento immagini ImageLoader Fix theme errors squaregen 21/06/2022 11:31\nCaricamento immagini ImageLoader Fix theme errors squaregen 20/06/2022 18:00\nAscii art title fun Fix color Theme (Red) Fix Stroke Text squaregen 31/05/2022 15:03\nAscii art title fun Fix color Theme (Red) Fix Stroke Text squaregen 31/05/2022 15:03\nAscii art title fun squaregen 31/05/2022 01:49\nAscii art title fun squaregen 29/05/2022 16:45\nAscii art title fun squaregen 29/05/2022 02:20\nStatistiche Customer squaregen 26/05/2022 18:00\nDashboard con statistiche squaregen 26/05/2022 12:27\nDashboard con statistiche squaregen 24/05/2022 16:43\nInizio implementazione profili operatore squaregen 19/05/2022 17:23\nInizio implementazione profili operatore squaregen 19/05/2022 17:03\nImplementazione menu serializzabili Inizio implementazione profili operatore squaregen 04/05/2022 16:58\ntest per dashboard Miglioramento schermata infoscreen ed eliminazione ErrorScreen squaregen 26/04/2022 17:52\nAggiunta possibilità di ricercare l'indirizzo del cliente su Maps squaregen 19/04/2022 23:35\nSpostata la gestione delle immagini di sfondo sul server creato resource_bloc.dart resource_query_model.dart e resource_response.dart per gestire la trasmissione delle immagini con il server. Rimosse le immagini dagli assets ad eccezione di un immagine di default.webp squaregen 19/04/2022 15:43\nAggiornato BaseServiceEx per richiedere un parametro obbligatiorio ${apiName} squaregen 16/04/2022 15:45\nSincronizzazione clienti squaregen 16/04/2022 01:11\nEditor macchine squaregen 15/04/2022 15:02\nAggiunta schermata item squaregen 08/04/2022 09:50\nAggiunta schermata item squaregen 07/04/2022 18:33\nAggiunto items e vmcs Aggiunto BaseServiceEx per non reimplementare tutte le volte un nuovo servizio. Ho reso più generico BaseServiceEx squaregen 31/03/2022 17:45\nAggiunto items e vmcs Aggiunto BaseServiceEx per non reimplementare tutte le volte un nuovo servizio. Ho reso più generico BaseServiceEx squaregen 28/03/2022 01:40\nAggiunto items e vmcs Aggiunto BaseServiceEx per non reimplementare tutte le volte un nuovo servizio. Ho reso più generico BaseServiceEx squaregen 27/03/2022 23:14\neditor configurazione vmc row squaregen 23/03/2022 17:17\neditor configurazione vmc row squaregen 22/03/2022 01:48\neditor configurazione vmc undo redo squaregen 18/03/2022 18:04\neditor configurazione vmc squaregen 17/03/2022 23:07\neditor configurazione vmc squaregen 17/03/2022 13:01\neditor configurazione vmc squaregen 17/03/2022 09:40\nautogenerate vmc assistenze colonna stabilimenti squaregen 10/03/2022 00:56\nMigliorata la visualizzazione dei lavori in report_edit_screen.dart Corretta la visualizzazione del notch in data_screen.dart quando è in fase id caricamento squaregen 03/03/2022 00:49\nRevert DataGridSelectionColumn impostata come Mode.DIALOG Aggiunto debug layer con i log della ricerca (da attivare direttamente da codice) Corretta ricerca in datagridcolumn In report_edit_summary.dart migliorato il controllo delle date inserite Migliorato il widget OkCancel per gestire un pulsante opzionale (per ora SALVA COME NUOVO) Aggiunto salva come nuovo in report_edit_summary.dart squaregen 02/03/2022 00:09\nDataGridSelectionColumn impostata come Mode.DIALOG squaregen 01/03/2022 01:36\nAutofocus dropdown search box on windows and windows browser Add custom filter in dropdown_search for Customer e DataGridColumn squaregen 01/03/2022 01:02\nAutofocus dropdown search box on windows and windows browser squaregen 28/02/2022 12:52\nAutofocus dropdown search box on windows and windows browser squaregen 28/02/2022 12:50\nAdd remove filter in data_screen.dart add key in animation in MultiScaffoldEx for trigger animation when menu is clicked on left side bar Add key in ApplicationUserItem container Improved hashtag item Improved ReportScreenEx footer squaregen 28/02/2022 00:50\nEdit syncfusion_flutter_datagrid to show checkbox without glitces Add selection button in data_screen.dart squaregen 23/02/2022 10:43\nModificato comportamento FAB in data_screen.dart Ora è possibile modificare gli hashtags e la descrizione anche se il lavoro inserito non è l'ultimo squaregen 22/02/2022 00:34\nChange data_screen.dart rowHeight behaviour (useIntrinsicHeight: true) Change data_screen.dart fab to show a circle background when open. Change bottombar color, revert scaffold bodyExtent: false squaregen 21/02/2022 01:24\nfix theme error HashTagItem ApplicationUserItem AccountDrawerItem squaregen 20/02/2022 02:27\nfix theme error (scrollbar thickness) squaregen 18/02/2022 18:23\nfix data_screen resize window fix login_screen colors squaregen 18/02/2022 17:01\nfix data_screen resize window change data_screen fab behaviour fix windows start size squaregen 18/02/2022 13:02\nfocusscope focusnode set default datetimepicker entry mode value as input when platform is windows squaregen 18/02/2022 01:17\nfocusscope focusnode set default datetimepicker entry mode value as input when platform is windows squaregen 18/02/2022 01:12\nfooter datascreen squaregen 17/02/2022 15:38\nfooter datascreen squaregen 17/02/2022 11:19\nfooter datascreen squaregen 16/02/2022 18:31\nfooter datascreen squaregen 16/02/2022 14:31\nfooter datascreen squaregen 16/02/2022 01:29\ntest animation fix bug with horizontalscrollcontroller in data_screen.dart squaregen 15/02/2022 11:06\ntest animation fix bug with horizontalscrollcontroller in data_screen.dart squaregen 15/02/2022 10:39\ntest animation fix bug with horizontalscrollcontroller in data_screen.dart squaregen 15/02/2022 00:41\nimplementazione ricerca con datagridcolumnselection temi squaregen 14/02/2022 01:19\nimplementazione ricerca con datagridcolumnselection temi squaregen 14/02/2022 00:59\nimplementazione ricerca con datagridcolumnselection squaregen 13/02/2022 18:03\nimplementazione ricerca con datagridcolumnselection squaregen 13/02/2022 02:40\nimplementazione ricerca con datagridcolumnselection squaregen 12/02/2022 17:58\nimplementazione ricerca con datagridcolumnselection squaregen 12/02/2022 16:19\nimplementazione ricerca con datagridcolumnselection squaregen 10/02/2022 18:26\ncompressione immagini in webp aggiunta opzione per modificare opacità sfondo squaregen 10/02/2022 17:00\ncompressione immagini in webp aggiunta opzione per modificare opacità sfondo squaregen 10/02/2022 16:59\ndatagridselectioncolumn squaregen 10/02/2022 01:17\ncorrezioni varie squaregen 09/02/2022 18:14\ncorrezioni varie completata datagrid_date_column aggiunti validator con keystates in application users e hashtags migliorato funzionamento schermata assistenze corretta malfuzionamento DateTimePicker (lsOldValue) squaregen 09/02/2022 00:54\ncorretta main in versione web squaregen 08/02/2022 18:03\ncorrezione reportscreen e reporteditscreen squaregen 08/02/2022 17:26\ncorrezione reportscreen e reporteditscreen squaregen 08/02/2022 16:40\ntemi squaregen 08/02/2022 14:56\ntemi squaregen 08/02/2022 12:28\ntemi navigation_screen_ex2.dart squaregen 08/02/2022 01:54\nremove warnings squaregen 03/02/2022 14:40\nfonts, textarea squaregen 03/02/2022 11:52\nSviluppo squaregen 18/01/2022 01:27\nApplicationUserEditScreen OkCancel Widget DialogTitle Widget Password Change Widget squaregen 10/01/2022 01:25\nServices edit CrudRepo Add Gestione della selezione automatica elementi dopo salvataggio in DataScreen squaregen 06/01/2022 20:00\nReport getStatus squaregen 02/01/2022 01:37\nSignatureFormField, editState, validation error scroll squaregen 02/01/2022 01:11\nclear warning and lint warning squaregen 29/12/2021 23:55\nfoto, grafica, warnings squaregen 29/12/2021 18:14\nReport, Signature squaregen 23/12/2021 11:47\nImplementazione di Freezed sulle classi Report, ReportDetail, ReportUser, ReportDetailHashTag squaregen 14/12/2021 10:01\nImplementazione di Freezed sulle classi Report, ReportDetail, ReportUser, ReportDetailHashTag squaregen 14/12/2021 09:55\nSalvataggio intervento squaregen 13/12/2021 11:46\nCambio interfaccia squaregen 10/12/2021 00:28\nCambio interfaccia squaregen 10/12/2021 00:15\nCambio interfaccia squaregen 09/12/2021 12:18\nReport Report Editor Editor lavori Drawer squaregen 01/12/2021 11:07\nDashboard Stampa squaregen 18/11/2021 00:01\nImplementate funzionalità di login effettive (con salvataggio password) Aggiunto autologin (con token) Aggiunto pulsante per disconnessione squaregen 09/11/2021 01:17\nImplementate funzionalità di login effettive (con salvataggio password) Aggiunto autologin (con token) Aggiunto pulsante per disconnessione squaregen 09/11/2021 01:14\nAggiunto aggiornamento automatico app android squaregen 05/11/2021 18:14\nModificata gestione in navigation_screen per integrare correttamente la ricerca Utilizzato eventBus per passare i dati di SignalR alle schermate squaregen 02/11/2021 13:58\nModificato il navigation_screen per non richiamare PushNamed ma ricaricare i pulsanti all'interno della stessa finestra squaregen 29/10/2021 10:54\nMigliorato funzionamento SignalR Temi Ricerca squaregen 27/10/2021 18:29\nModificata lib SignalR per gestire meglio il reconnect sul web Aggiunta la notifica di nuovi dati in data_screen.dart squaregen 26/10/2021 18:20\nGeneralizzate classi del BLOC Pattern e gli screen delle anagrafiche squaregen 18/10/2021 18:37\napplication users e profiles squaregen 15/10/2021 17:50\njson_serializer squaregen 15/10/2021 15:49\njson_serializer squaregen 15/10/2021 15:48\nCreato adapter datagrid generico Fork di AnimatedIcons (anim\\animated_icon.dart) per abilitare l'effetto reveal (o splash) squaregen 14/10/2021 00:47\nDialog per eliminazione record squaregen 13/10/2021 18:42\nImplementazione CRUD su produttori squaregen 13/10/2021 17:54\nMerge remote-tracking branch 'origin/master' squaregen 13/10/2021 14:10\nImplementazione CRUD su produttori squaregen 13/10/2021 14:09\nUpdate README.md squaregen* 11/10/2021 16:37\nUpdate README.md squaregen* 11/10/2021 16:33\nInitial commit squaregen 11/10/2021 16:00"
+    }
+  ]
+}

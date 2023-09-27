@@ -1,0 +1,23 @@
+{
+    "name": "dpicenter",
+    "short_name": "dpicenter",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "DpiCenter App",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/triangle.png",
+            "sizes": "47x55",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/multi.png",
+            "sizes": "400x60",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,477 @@
+name: dpicenter
+description: DpiCenter App
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioninanimations: ^2.0.4g at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 0.0.71+212
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # per le chiamate al server
+  http: ^0.13.3
+
+  # sostituisce dart.io per flutter web (importare import 'package:universal_io/io.dart';)
+  universal_io: ^2.1.0
+
+  # per ottenere i dati da una mappa in modo più semplice.
+  # Permette ad esempio di ottenere dati innestati in modo più naturale
+  # Normalmente:
+  # String city = map['Info']['address']['city'] as String;
+  # Con questa libreria:
+  # gato.get<String>(map, 'info.address.city')
+  gato: ^0.0.4
+  #DataGrid
+  #pluto_grid: ^2.6.1
+  #git: https://github.com/Multi-Tech-s-r-l/pluto_grid.git
+
+  #per gestire i Future in modo migliore (CancelableOperation)
+  async: #^2.8.2
+
+
+  #BLoC pattern di flutter
+  flutter_bloc: ^8.0.0
+  bloc_concurrency: ^0.2.0
+
+  #badge per pulsanti (visualizza il numero di notifiche)
+  badges: ^2.0.1
+  #utilizzato per effettuare comparazioni sul tipo di classe
+  equatable: ^2.0.3
+  #impostazioni
+  shared_preferences: ^2.0.8
+  #testo animato
+  animated_text_kit: ^4.2.1
+  #animazioni caricamento
+  loading_indicator: ^3.0.2
+
+  #utilizzato da json_serializer
+  json_annotation: ^4.7.0
+
+  #treeview
+  flutter_fancy_tree_view:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/flutter_tree_view_multi
+
+  # database locale
+  #sqflite_common_ffi:
+  #sembast: ^3.1.1
+  #sembast_web: ^2.0.1+1
+  #sembast_sqflite: ^2.0.0
+
+  #tekartik_app_flutter_sembast:
+  #  git:
+  #    url: git://github.com/tekartik/app_flutter_utils.dart
+  #    ref: null_safety
+  #    path: app_sembast
+
+
+
+  #SignalR (per comunicazioni dirette con il server)
+  #usiamo la nostra versione perchè nella versione Web l'autoreconnect è buggato
+  signalr_core:
+    git: https://github.com/Multi-Tech-s-r-l/signalr_core
+  #signalr_core: ^1.1.1
+
+  #per accedere al DOM (Domain Object Model)
+  universal_html: ^2.0.8
+  #awesome_notifications: ^0.0.6+11
+
+  #per formattare documenti scritti con markdown
+  flutter_markdown: ^0.6.10+2
+
+  #lo utilizzo per avere un wrap riordinabile
+  reorderables:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/reorderables
+
+  #gestione temi #integrato direttamente nel codice
+  #theme_mode_handler: ^3.0.0
+  # appbar con ricerca
+  flutter_search_bar:
+    git: https://github.com/Multi-Tech-s-r-l/flutter-search-bar-xt
+
+  # animazione GridView
+  #flutter_staggered_animations: ^1.0.0
+  flutter_staggered_animations:
+    git:
+      url: https://github.com/Tkko/flutter_staggered_animations
+      ref: Flutter-3.0.0
+
+  # invio eventi tra componenti dell'app
+  event_bus: ^2.0.0
+  # A powerful Http client for Dart, which supports Interceptors, Global configuration, FormData, Request Cancellation, File downloading, Timeout etc.
+  dio: ^5.1.1
+
+  # A Flutter plugin for finding commonly used locations on the filesystem. Supports Android, iOS, Linux, macOS and Windows. Not all methods are supported on all platforms.
+  #path_provider: ^2.0.6
+  camera: ^0.10.0
+  camera_windows: ^0.2.1+1
+  path_provider:
+
+  # per la gestione dello stato
+  provider: ^6.0.2
+
+  # fork di app_installer
+  # Per installare app Android
+  # https://pub.dev/packages/app_installer/install
+  app_installer:
+    git: https://github.com/Multi-Tech-s-r-l/app_installer
+
+  # per effetturare lo zoom su determinati widget o su tutto
+  #zoom_widget: ^0.2.1
+
+  # per gestire il drag and drop da più liste contemporaneamente
+  # https://github.com/philip-brink/DragAndDropLists
+  # https://pub.dev/packages/drag_and_drop_lists
+  drag_and_drop_lists: ^0.3.2+2
+
+  # per aprire altre pagine web.
+  url_launcher: ^6.0.20
+
+  #localizzazione delle date e dei testi
+  intl: ^0.18.0
+
+  #una listview ordinabile ed animata
+  #implicitly_animated_reorderable_list: ^0.4.2
+
+  #slide degli elementi di una lista
+  #flutter_slidable: ^1.1.0
+
+  # per selezionare un colore
+  flutter_colorpicker: ^1.0.2
+
+  # loading ghost/skeleton
+  shimmer: ^2.0.0
+
+  # dropdown con ricerca integrata
+  dropdown_search: ^5.0.2
+
+  # date time picker
+  date_time_picker:
+    git: https://github.com/Multi-Tech-s-r-l/date_time_picker
+
+  # slider drawer
+  slide_drawer: ^1.0.3
+
+  # altro drawer
+  flutter_slider_drawer: ^2.0.0
+
+  #aggiunge CopyWith alle classi decorate con @CopyWith
+  copy_with_extension: ^4.0.0
+
+  #icone di sistema di windows
+  #fluentui_system_icons: ^1.1.153
+
+  # icone di diversi fornitori
+  fluttericon: ^2.0.0
+
+  # stampa e visualizzazione documenti pdf
+  printing: ^5.9.4
+
+  #per creare pdf
+  pdf: ^3.8.3
+
+  #testo landscape
+  #landscape_textfield: ^0.0.2
+
+  #per selezionare i file da caricare sul server
+  #file_picker_cross: ^4.5.0
+
+  #per manipolare le immagini
+  image: ^4.0.02
+
+  #permette lo scroll di una ListView ad un indice specifico
+  scroll_to_index:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/scroll-to-index
+
+
+  #Process run helpers for Linux/Win/Mac.
+  #process_run: ^0.12.2+2
+
+  #video player ios windows max linux
+  #dart_vlc: ^0.1.8
+
+  #plugin per gestire lo scroll dei campi
+  #ensure_visible_when_focused: ^1.0.0+1
+
+  #per creare finestre personalizzate in windows mac e linux
+  #https://pub.dev/packages/bitsdojo_window
+  bitsdojo_window: ^0.1.5
+  #bitsdojo_window_flutter3:
+  #  git: https://github.com/aryan-more/bitsdojo_window.git
+
+
+  #google fonts -per l'app ho utilizzato roboto
+  #(necessario perchè su Windows utilizza di default il font Redmond)
+  google_fonts: ^4.0.2
+
+  # per rendere più fluido lo scrolling tramite rotellina del mouse nella versione web e windows (max e linux)
+  # in attesa del fix da parte del team di Flutter
+  # smooth_scroll_web: ^0.0.4
+
+  #un altro file picker 5.0.1
+  file_picker: ^5.5.0
+  #    git:
+  #      url: https://github.com/Multi-Tech-s-r-l/flutter_file_picker
+
+  #React to keyboard visibility changes.
+  flutter_keyboard_visibility: ^5.1.1
+
+  #ottiene le dimensioni della tastiera virtuale
+  flutter_keyboard_size: ^1.0.0+4
+
+  #data grid
+  # syncfusion_flutter_datagrid: ^20.1.48
+  syncfusion_flutter_datagrid:
+    git:
+      url: https://github.com/squaregen/syncfusion_flutter_datagrid-20.4.54
+
+  #charts
+  syncfusion_flutter_charts: ^20.1.57
+
+  #floating action button espandibile
+  #flutter_speed_dial: ^5.0.0+1
+
+  #per creare scermate per i settings
+  #settings_ui: ^2.0.2
+  #versione modificata per gestire cacheExtent
+  settings_ui:
+    git:
+      url: https://github.com/squaregen/flutter-settings-ui
+
+  # animazione GridView
+  #flutter_staggered_animations: ^1.0.0
+
+  # bordi tratteggiati
+  dotted_border: ^2.0.0+2
+  #converte ChangeNotifier in Stream e viceversa
+  #listenable_stream: ^1.1.0
+
+  #renderizzare qr code
+  qr_flutter:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/qr.flutter
+
+  #animazioni per widget, navigation
+  animations: ^2.0.2
+
+  #calcolo della color difference tra due LabColor
+  delta_e: ^0.2.0
+
+  #per gestire i diversi color spaces
+  flutter_color_models: ^1.3.0
+
+  #inserimento numeri
+  flutter_spinbox: ^0.9.0
+
+  #porta seriale
+  flutter_libserialport: ^0.2.3
+
+  #barcode scanner per ios e android mac e web
+  mobile_scanner:
+    git: https://github.com/Multi-Tech-s-r-l/mobile_scanner
+  barcode_scan2: ^4.2.0
+
+  #per caricare immagini anche dalla fotocamera
+  image_picker: ^0.8.4+11
+
+  #play audio sound
+  #audioplayers: ^1.2.0
+  audioplayers: ^3.0.1
+
+  #per visualizzare immagini svg
+  #flutter_svg: ^1.0.3
+
+  #per effettuare screenshots di widget
+  screenshot: ^2.1.0
+
+  #A flutter plugin which could read image,files from clipboard and write files to clipboard.
+  pasteboard: ^0.2.0
+
+  #registra un widget e permette il salvataggio in gif
+  #screen_recorder: ^0.0.3
+
+  #per aprire un file con l'app di default del sistema operativo
+  open_file: ^3.2.1
+    #git:
+  # url: https://github.com/Multi-Tech-s-r-l/open_file
+
+  #progress bar con animazione
+  flutter_animation_progress_bar: ^2.1.1
+
+  #ascii art
+  enough_ascii_art: ^1.0.0
+
+  #lista di tutte le emoji unicode
+  emojis: ^0.9.9
+
+  #resize del testo in base alla dimensione del contenitore
+  auto_size_text: ^3.0.0
+
+  #widget animati
+  animate_do: ^2.1.0
+
+  #utilizzato dalla treeview
+  get:
+
+  #Per leggere (e scrivere) file Excel
+  excel:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/dart_excel
+      ref: null-safety
+
+  collection: ^1.16.0
+
+  # un check di conferma animato
+  animated_check: ^1.0.0
+
+  #risolve il mime type di un file o di un estensione
+  mime_type: ^1.0.0
+
+  #font awesome icons
+  font_awesome_flutter: ^10.2.1
+
+  #animazione bolle
+  floating_bubbles: ^2.4.0
+
+  #animazioni da usare per il background
+  particles_flutter: "^0.1.1"
+  animated_background: ^2.0.0
+  vitality:
+    git: https://github.com/Multi-Tech-s-r-l/vitality
+
+  #testo espandibile
+  expandable_text: 2.3.0
+
+  #per ottenere informazioni dal device in uso
+  device_info_plus:
+
+  #per visualizzare un messaggio prima della chiusura dell'applicazione
+  flutter_window_close: ^0.2.2
+
+  #barcode scanner web
+  ai_barcode:
+    git:
+      url: https://github.com/Multi-Tech-s-r-l/ai_barcode
+
+  #drag and drop di file dall'esterno
+  desktop_drop: ^0.3.3
+
+  #openai chat gpt api
+  openai_gpt3_api:
+    git: https://github.com/Multi-Tech-s-r-l/openai_gpt3_dart_api
+  #per codificare e decodificare il testo
+  enough_convert: ^1.6.0
+
+  #flutter highlighter -> utilizzato per colorizzare il testo markdown
+  flutter_highlighter: ^0.1.1
+
+  #tts di azure
+  flutter_azure_tts: ^0.1.5
+  #auto complete textfield
+  #flutter_typeahead: ^4.1.1
+#  searchfield: ^0.7.4
+dev_dependencies:
+
+  flutter_lints: ^2.0.1
+
+  #per creare automaticamente i file json
+  json_serializable: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+  #creatore di setup per windows
+  msix: ^3.1.5
+
+  #aggiunge CopyWith alle classi decorate con @CopyWith
+  copy_with_extension_gen: ^4.0.0
+
+  process_run: ^0.12.2+2
+  #canvas per fare una firma -> fork diretto all'interno dell'app
+  #signature: ^5.0.0
+
+  #utilizzato da json_serializer
+  build_runner: ^2.0.0
+
+
+dependency_overrides:
+  # per far funzionare bitdojo_window e file_picker insieme che utilizzano versioni diverse di win32
+  win32: ^5.0.5
+  ffi: ^2.0.0
+
+  #visualizza delle frecce di collegamento tra i widget
+  #widget_arrows: ^0.2.0-nullsafety.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  fonts:
+    - family: Roboto Mono
+      fonts:
+        - asset: google-fonts/RobotoMono-Regular.ttf
+        - asset: google-fonts/RobotoMono-Bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - graphics/
+    - configuration/
+    - google-fonts/
+    - assets/audio/
+    - assets/fonts/
+
+# comandi da eseguire nel terminale per generare il pacchetto msix:
+# flutter build windows
+# flutter pub run msix:create
+# qui di seguito invece la configurazione del setup.
+# TODO: studiare per ottenere certificato
+msix_config:
+  display_name: DpiCenter
+  publisher_display_name: Multi-Tech
+  identity_name: MultiTech.DpiCenter.App
+  msix_version: 0.0.71.2
+  logo_path: .\graphics\app_icon.ico
+  capabilities: 'internetClient'
